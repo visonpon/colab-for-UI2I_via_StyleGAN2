@@ -19,4 +19,4 @@ drive.mount('/content/drive/', force_remount=True)
 !python closed_form_factorization.py --ckpt ../drive/MyDrive/550000.pt --out factor.pt
 
 #generate style image
-!python projector_factor.py --ckpt ../drive/MyDrive/550000.pt --fact factor_5.pt ./sample/000000.png
+!python projector_factor.py --ckpt ../drive/MyDrive/550000.pt --fact factor.pt ./sample/000000.png
