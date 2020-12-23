@@ -20,3 +20,6 @@ drive.mount('/content/drive/', force_remount=True)
 
 #generate style image
 !python projector_factor.py --ckpt ../drive/MyDrive/550000.pt --fact factor.pt ./sample/000000.png
+
+
+#!python gen_multi_style.py --model1 ../drive/MyDrive/550000.pt --model2 ../drive/MyDrive/550000.pt --fact 000003.pt --fact_base factor_5.pt -o results --swap_layer 3 --stylenum 10
